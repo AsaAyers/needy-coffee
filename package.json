@@ -1,0 +1,11 @@
+{
+  "name": "needy-coffee",
+  "version": "0.0.1",
+  "description": "",
+  "main": "needy-coffee.js",
+  "devDependencies": {
+    "node-static": "~0.7.1"
+  },
+  "author": "Asa Ayers <Asa@AsaAyers.com>",
+  "license": "MIT"
+}

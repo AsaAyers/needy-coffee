@@ -1,0 +1,21 @@
+{
+  "name": "needy-coffee",
+  "main": "needy-coffee.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/AsaAyers/needy-coffee",
+  "authors": [
+    "Asa Ayers <Asa@AsaAyers.com>"
+  ],
+  "description": "CoffeeScript initializer for Needy",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}
