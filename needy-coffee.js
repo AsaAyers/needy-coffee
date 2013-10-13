@@ -1,3 +1,4 @@
+console.log('needy-coffee');
 /* global __needy */
 // Modify the needy instance that required this file.
 if (typeof __needy !== 'undefined')
@@ -14,7 +15,7 @@ if (typeof __needy !== 'undefined')
     if (!CoffeeScript || !CoffeeScript.compile) {
         throw new Error("Unable to load CoffeeScript");
     }
-    __needy.addInitializer('coffee', function(module, source, dirname, needy, global) {
+    __needy.setInitializer('coffee', function(module, source, dirname, needy, global) {
         var compiled, opts;
 
         opts = {
